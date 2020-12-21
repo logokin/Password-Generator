@@ -1,0 +1,93 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(white,black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: rgb(52, 51, 51);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 370px;
+    border: 2px white solid;
+}
+
+h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    color: #fff;
+    border-bottom:2px solid white ;
+}
+.form-control label{
+    cursor: pointer;
+}
+
+.p-header{
+    position: relative;
+}
+.p-header input{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 14px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.p-header button, .form-control input[type=number]{
+    padding: 3px 5px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px 0 0 0;
+}
+.p-header button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    /* border: 5px solid black; */
+}
+
+#submit{
+    width: 100%;
+    padding: 15px;
+    margin-top:10px ;
+    border: 3px solid white;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background-color: black;
+    color: white;
+}
+
+#submit:hover{
+    color: black;
+    background: white;
+    border: 3px solid black;
+}
